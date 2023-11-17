@@ -4,7 +4,9 @@
   "description": "## Введение",
   "main": ".eslintrc.js",
   "scripts": {
+
     "test": "node sudoku.js"
+
   },
   "keywords": [],
   "author": "",
