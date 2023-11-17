@@ -2,24 +2,19 @@
   "name": "sudoku",
   "version": "1.0.0",
   "description": "## Введение",
-  "main": "runner.js",
+  "main": ".eslintrc.js",
   "scripts": {
-    "start": "node runner.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Elbrus-Bootcamp/project-sudoku.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Elbrus-Bootcamp/project-sudoku/issues"
-  },
-  "homepage": "https://github.com/Elbrus-Bootcamp/project-sudoku#readme",
   "devDependencies": {
-    "eslint": "^8.8.0",
+    "eslint": "^8.53.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4"
+    "eslint-plugin-import": "^2.29.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
   }
 }
